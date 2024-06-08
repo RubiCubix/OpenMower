@@ -568,7 +568,7 @@ namespace soundSystem
                 return;  // No luck
 
             // Play sound
-            playSound({num : (uint16_t)(200 + (rand() % 7)), type : TrackTypes::background});  // Play background track 200 to 206 by random
+            playSound({num : (uint16_t)(200 + (rand() % 23)), type : TrackTypes::background});  // Play background track 200 to 222 by random
             last_mow_sound_started_ms = now;
         }
 
